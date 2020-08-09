@@ -1,89 +1,175 @@
 
 html, body {
-    margin: 0%;
+    background-color: #F9F5F3;
+    margin: 0;
 }
 h1 {
-    font-size:44px;
-    color:#d3e5ff;
+    font-family: Verdana, sans-serif;
+    font-weight:400;
+}
+h2 {
+    text-align: center;
+    font-size:40px;
+    line-height:45px;
+    color:#000000;
     font-family:merriweather,serif;
     font-weight:400;
 }
-#titulo {
-    color: white;
-    padding-top: 9%;
-    font-size: 70px;
-}
-#subtitulo {
-    color: white;
-    padding-top: 9%;
-    padding-left: 20%;
-    padding-right: 20%;
-}
 p {
-    font-family:merriweather;
-    font-size:18px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
     line-height:32px;
     font-style: normal;
     font-weight: 400;
     white-space: normal;
     letter-spacing: normal;
     color:#000000;
-    margin-top:30px;
+    margin-top: 2em;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-h2 {
-    margin:0;
-    font-size:40px;
-    line-height:45px;
-    color:#000000;
-    font-family:merriweather,serif;
-    font-weight:400;
-    clear:none;
-    margin:50px 0 30px
+section {
+    height: fit-content;
+    padding: 30px 5% 30px 5%;
+    border-radius: 3px;
+    box-shadow: 0 0 9px 0 rgba(67, 65, 79, 0.1);
+    transition: all 0.3s;
+    margin-left: 50px;
+    margin-right: 50PX;
+    background-color: #fffefa;
 }
-.content {
-    position:relative;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 25%;
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-.sessao {
-    background-color: lightyellow;
+header {
+    font-size: medium;
+    background-color: steelblue;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    z-index: 10;
 }
-.coluna {
+footer {
+    padding-bottom: 0%;
+    height: 360px;
+    min-height: fit-content;
+    background-color: #245f76;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin: 0 5%
+}
+#logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+li {
     float: left;
-    padding: 0 5%;
-    position: relative;
-    width: 40%;
+    padding: 20 10 20 10;
+    color: #fffefa;
 }
-div#maincontent {
-    position:relative;
-    margin-left:260px
+li:hover {
+    background-color: #82daff;
+}
+#titulo {
+    padding-top: 13%;
+    font-size: 4em;
+}
+#subtitulo {
+    font-size: 2em;
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#conteudo {
+    min-width: 500px;
+    margin-left: 50px;
+    margin-right: 50PX;
+    background-color: #fffefa;
+    border-radius: 3px;
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    transition: all 0.3s;
 }
 #imagem-fundo {
     background: url(img/windrader.jpg);
     height: 100%;
     background-size: cover;
     text-align: center;
+    position: initial;
+    background-position: top;
 }
-section {
+#final {
+    margin-bottom: 100px;
+}
+.espaco {
+    height: 35px;
+}
+.coluna {
+    width: 40%;
+    float: left;
+    padding: 5% 5%;
+    position: relative;
+}
+.fim{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    line-height:32px;
+    font-style: normal;
+    font-weight: 400;
+    white-space: normal;
+    letter-spacing: normal;
+    margin-top: 2em;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.final {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:25px;
+    line-height:32px;
+    font-style: normal;
+    font-weight: 400;
+    white-space: normal;
+    letter-spacing: normal;
+    margin-top: 2em;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#eu {
+    height: 40%;
+    max-width: auto;
+    padding: 5%;
+}
+#sobre {
+    height: 120%;
+    min-height: max-content;
     width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 30px 0 20px 0;
+    padding: 0;
+    padding-bottom: 5%;
+    border-radius: 0;
+    box-shadow: 0;
+    transition: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fffefa;
 }
-.center {
-    padding: 0 5%;
-    position: relative;
+#about{
+    color: #000000;
 }
-.imagem {
-    width: 560;
-    height: 315;
-    margin-top: 25%;
+.branco {
+    color: white;
 }
-#coluna-unica {
-    float: center;
-    padding: 0 20% 0% 20%;
-    position: relative;
-    text-align: center;
+.me {
+    width: auto;
 }
