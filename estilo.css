@@ -136,9 +136,8 @@ li:hover {
     color: white;
 }
 @media all and (max-width: 897px) {
-    #menu {
-        visibility: hidden;
-        max-height: 58;
+    #sobre, #eu, footer, img {
+        height: auto;
     }
     .coluna {
         display: block;
@@ -149,7 +148,6 @@ li:hover {
     }
     img {
         width: 100%;
-        height: auto;    
     }
     p {
         width: auto;
@@ -159,13 +157,9 @@ li:hover {
         margin-right: 1%;
     }
     #eu{
-        height: auto;
         width: 80%;
     }
-    #sobre {
-        height: auto;
-    }
-    footer {
-        height: auto;
+    header {
+        visibility: hidden;
     }
 }
